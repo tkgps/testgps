@@ -45,7 +45,9 @@
       <div class="jumbotron">
         <h1><?php echo $gps->sayHello();?></h1>
         <p class="lead"><?php echo $gps->getTitle();?></p>
-        <a class="btn btn-lg btn-primary" href="" role="button">Далее &raquo;</a>
+        <a class="btn btn-lg btn-primary" href="" role="button">Далее &raquo;</a><br/>
+        <?php echo $gps->newFunctionByMikeSVB();?>
+        
       </div>
     </main>
 

@@ -14,7 +14,10 @@ class GPS
         echo "Имя страницы: ".$this->title;
     }
     /* ниже пишем свои функции*/
-    
+    function newFunctionByMikeSVB()
+    {
+        return  "Моя новая функция ";
+    }
     
     
 }
