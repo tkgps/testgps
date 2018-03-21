@@ -18,7 +18,10 @@ class GPS
     {
         return  "Моя новая функция ";
     }
-    
+    function afterForkByMikeSVB()
+    {
+        return  "После форка";
+    }
     
 }
 
